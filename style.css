@@ -5,8 +5,7 @@
     overflow: hidden;
 }
 .container{
-    padding-left: 40px;
-    padding-right: 40px;
+    
 
     width: 100vw;
     height: 100vh;
@@ -14,16 +13,22 @@
     flex-direction: column;
 }
 .heading{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     width:100vw;
     position: absolute;
-    background-color: white;
+    
     font-size: 2rem;
     color: rgb(45, 61, 109);
 }
 
 .remaining{
+    padding-left: 40px;
+    padding-right: 40px;
     display: flex;
     width:100%;
+    flex-wrap: wrap;
     height: 100%;
     justify-content: space-between;
 }
@@ -55,14 +60,51 @@ button{
     color: white;
     border-radius: 15px;
     border: 0px;
+    transition: .9s;
 }
 .links{
+    margin-left: 10px;
+    margin-top: 40px;
+    display: flex;
+    gap:40px;
     font-size:12px;
 }
 .image{
     width: 60%;
 }
-i{
-    width: 10px;
-    height: 10px;
+.links img{
+    overflow:visible;
+    width: 30px;
+    height: 30px;
+    color: blue;
+    display: block;
+}
+.image img{
+    width:600px;
+    height: 470px;
+    float: right;
+    margin-top: 100px;
+}
+.animations{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    z-index: -10;
+}
+/* .big1{
+    left: -300px;
+    width:800px;
+    height: 1000px;
+    z-index: -1;
+    border-radius: 33% 67% 100% 0% / 0% 58% 42% 100%  ;
+    background-color: rgb(207, 244, 253);
+} */
+
+button:hover{
+    background-color: rgb(45, 61, 109);
+    border: 1px;
+}
+.heading img{
+    width:110px;
+    cursor: pointer;
 }
