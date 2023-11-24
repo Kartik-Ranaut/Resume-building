@@ -28,6 +28,11 @@
     <li>Start Date</li>
     <li>End Date</li>
   </ul>
-
-  
+  <li>Work Experience</li>
+  <ul>
+    <li>Organization</li>
+    <li>Responsibility</li>
+    <li>Start Date</li>
+    <li>End Date</li>
+  </ul>
 </ul>
