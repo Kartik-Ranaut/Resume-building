@@ -19,6 +19,9 @@
   </tr>
   <tr>
     <td>3.</td>
+    <td>Tech Stack used</td>
+  <tr>
+    <td>4.</td>
     <td>Details</td>
   </tr>
 </table>
