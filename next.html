@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="next.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input">
+            <input class="field" type="radio" name="data" id="about" checked>
+            <label class="nextpage" for="about">
+                <div class="about-form">
+                    <div class="about-form-details">
+                        <div class="about-form-left">
+                            <div class="name">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" placeholder="Enter your name" class="form">
+                            </div>
+                            <div class="email">
+                                <label for="email">Email</label>
+                                <input type="text" id="email" placeholder="Enter your E-mail id" class="form">
+                            </div>
+                            <div class="address">
+                                <label for="address">Address</label>
+                                <input type="text" id="address" placeholder="Enter your address" class="form">
+                            </div>
+                        
+                        </div>
+                        <div class="about-form-right">
+                            <div class="role">
+                                <label for="role">Role</label>
+                                <input type="text" id="role" placeholder="Role" class="form">
+                            </div>
+                            <div class="phone">
+                                <label for="phone">Phone</label>
+                                <input type="text" id="phone" placeholder="Enter your phone no." class="form">
+                            </div>
+                                <div class="linkedin">
+                                    <label for="linkedin">LinkedIn</label>
+                                    <input type="text" id="linkedin" placeholder="Enter your LinkedIn" class="form">
+                                </div>    
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button type="submit" class="button">Save</button>
+                    </div>
+                    
+                </div>
+            </label>
+            <label class="fieldname" for="about">About</label>
+            <input class="field" type="radio" name="data" id="education">
+            <label class="nextpage" for="education">
+                <div class="education-form">
+                    <div class="education_classes_details">
+                        <!-- 10th class start -->
+                        <div class="X">
+                            <h4>HIGH SCHOOL</h4>
+                            <div class="board">
+                                <label for="X_board">BOARD</label><br>
+                                <input type="text" id="X_board" placeholder="board name" class="education_detail-form">
+                            </div>
+                            <div class="percentage">
+                                <label for="X_percentage">PERCENTAGE</label>
+                                <input type="number" id="X_percentage" placeholder="percentage" class="education_detail-form">
+                            </div>
+                        </div>
+                        <!-- 12th class start -->
+                        <div class="XII">
+                            <h4>INTERMEDIATE</h4>
+                            <div class="board">
+                                <label for="XII_board">BOARD</label><br>
+                                <input type="text" id="XII_board" placeholder="board name" >
+                            </div>
+                            <div class="percentage">
+                                <label for="XII_percentage">PERCENTAGE</label>
+                                <input type="number" id="XII_percentage" placeholder="percentage">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h4>SKILLS</h4>
+                        <textarea name="skills" id="skills" cols="30" rows="10" placeholder="ENTER YOUR SKILLS HERE..."></textarea>
+                    </div>
+                    <div class="btn">
+                        <button type="submit" class="button">Save</button>
+                    </div>
+                </div>
+            </label>
+            <label class="fieldname" for="education">Education</label>
+            <input class="field" type="radio" name="data" id="projects">
+            <label class="nextpage" for="projects">
+                <div class="project_detail">
+                    
+                    <label style="margin-left: 25px;" for="name">Project Name</label>
+                    <input style="margin-left: 25px;" type="text" id="name" placeholder="Enter your project name">
+                    <label style="margin-left: 25px;" for="description">Project Description</label>
+                    <textarea style="margin-left: 25px;" name="description" id="description" cols="30" rows="10"></textarea>
+                    <label style="margin-left: 25px;" for="github">Github Repository Link</label>
+                    <input style="margin-left: 25px;" type="text" id="github" placeholder="repository link">
+                    <label style="margin-left: 25px;" for="start_date">START DATE</label>
+                    <input style="margin-left: 25px;" type="date" id="start_date" ><br>
+                    <label style="margin-left: 25px;" for="end_date">END DATE  &nbsp &nbsp</label>
+                    <input style="margin-left: 25px;" type="date" id="end_date" >
+                    <div class="btn">
+                        <button type="submit" class="button">Save</button>
+                    </div>
+                </div>
+            </label>
+            <label class="fieldname" for="projects">Projects</label>
+            <input class="field" type="radio" name="data" id="work">
+            <label class="nextpage" for="work">
+                <div class="work_exp_detail">
+
+                    <label  style="margin-left: 25px"for="name">Organization</label> <br> <br>
+                    <input  style="margin-left: 25px"type="text" id="name"> <br>
+                    <label  style="margin-left: 25px"for="post">Responsibility:</label>
+                    <input  style="margin-left: 25px"type="text" id="post"><br> <br>
+                    <label  style="margin-left: 25px"for="name">Location :</label> &nbsp &nbsp &nbsp &nbsp 
+                    <input  style="margin-left: 25px"type="text" id="loc" placeholder="e.g. Delhi">
+                    <br> <br>
+                    <label  style="margin-left: 25px"for="duration">Start Date</label>
+                    <input  style="margin-left: 25px"type="date" id="start_duration">
+                    <br> <br>
+                    <label  style="margin-left: 25px"for="to_duration">End Date</label>
+                    <input  style="margin-left: 25px" type="date" id="end_duration">
+                    <br> <br>
+                    <label  style="margin-left: 25px"for="name">Description</label>
+                    <textarea style="margin-left: 25px" name="description" id="desc" cols="40" rows="8"></textarea>
+                </div>
+                <div class="btn">
+                    <button type="submit" class="button">Save</button>
+                </div>
+            </label>
+            <label class="fieldname" for="work">Work</label>
+        </div>
+        <div class="resumw"></div>
+    </div>
+</body>
+</html>

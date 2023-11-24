@@ -84,6 +84,21 @@ button{
     height: 470px;
     float: right;
     margin-top: 100px;
+    animation-name: change ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes change {
+    0%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
 }
 .animations{
     position: absolute;
@@ -93,7 +108,7 @@ button{
 }
 /* .big1{
     left: -300px;
-    width:800px;
+    width:600px;
     height: 1000px;
     z-index: -1;
     border-radius: 33% 67% 100% 0% / 0% 58% 42% 100%  ;
@@ -107,4 +122,10 @@ button:hover{
 .heading img{
     width:110px;
     cursor: pointer;
+}
+.big2{
+    left: 200px;
+    width:500px;
+    height: 500px;
+    background-color: #fff;
 }

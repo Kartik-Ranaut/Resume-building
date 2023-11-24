@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.input{
+    width:50%;
+    height: 100%;
+    
+    display: flex;
+    gap:8px;
+    padding-top:50px;
+    padding-left: 80px;
+}
+.nextpage{
+    position: absolute;
+    width: 500px;
+    height:600px;
+    background-color: red;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    top:100px;
+    left:90px;
+}
+.field{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+.field:checked + label{
+    z-index: 10;
+}
+.fieldname{
+    height: fit-content;
+    width:fit-content;
+    
+    padding:20px;
+    cursor: pointer;
+    
+}
+/* .field:checked + .fieldname{
+    border: 5px solid black;
+} */
+.about-form{
+   
+    
+    line-height: 35px;
+    height: 50vh;
+    width: 100%;
+
+}
+label{
+    font-weight: bolder;
+}
+#name{
+    display: block;
+}
+#email{
+    display: block;
+}
+#address{
+    display: block;
+}
+input{
+    background-color: rgb(222, 213, 213);
+    width: 150px;
+    height: 33px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding-left:10px ;
+}
+input::placeholder{
+    
+    text-align: left center;
+    color: black;
+}
+.about-form-details{
+    display: flex;
+    justify-content: space-around;
+}
+#phone{
+    display: block;
+}
+#role{
+    display: block;
+}
+#linkedin{
+    display: block;
+}
+#button{
+    margin-left: 30px;
+    border: none;
+}
+.button{
+    margin-top: 1rem;
+    background-color: blue;
+    color: white;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.education-form{
+    display: block;
+
+}
+.education-form{
+ 
+    line-height: 35px;
+    height: 50vh;
+    width: 100%;
+  
+}
+.education_classes_details{
+    display: flex;
+}
+.X,.XII{
+    display: block;
+}
+.board,.percentage{
+    line-height: 40px;
+    margin-left: 25px;
+    text-align: left;
+}
+
+
+input::placeholder{
+    
+    text-align: left center;
+    color: black;
+}
+h4{
+    text-align: center;
+}
+label{
+    font-weight: bolder;
+}
+.skills{
+    text-align: center;
+    
+}
+.project_detail{
+    line-height: 40px;
+}
+#name{
+    display: block;
+}
+#description{
+    display: block;
+}
+#github{
+    display: block;
+}
+
+textarea{
+    background-color: rgb(222, 213, 213);
+    
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+label{
+    font-weight: bolder;
+}
+.project_detail{
+    
+    line-height: 35px;
+    height: 60vh;
+    width: 100%;
+  
+}
+h2{
+    text-align: center;
+}
+.btn{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
