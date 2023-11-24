@@ -4,14 +4,35 @@
 <img src="Logo Design.png" width='500' height ='150' alt="Company Logo">
 <p>It is a simple Resume Building Website where the user needs to submit the details asked like the personal info, his/her Educational Qualificationsincluding the skill set, Any work experience and the Projects built by the user.</p>
 <p>It then takes all the necessary info and creates the Resume of the user based on this.</p>
+<hr>
+<p>Table of Content:</p>
+<table>
+  <th>S.No.</th>
+  <th>Topics</th>
+<tr>
+  <td>1.</td>
+  <td>Features</td>
+</tr>
+  <tr>
+    <td>2.</td>
+    <td>Advantages</td>
+  </tr>
+  <tr>
+    <td>3.</td>
+    <td>Details</td>
+  </tr>
+</table>
 <p><b>Features of our Resume Builder:</b></p>
+<hr>
 <ul>
   <li>Live Resume Building: Build your resume by choosing between our templates.</li>
   <li>Get customised job recommendations based on your rating with skill-based recommendations.</li>
   <li>Data generation that is automated to cut down on manual labour for Training and Placement cells.</li>
   <li>Download Resume Functionality so the HR can easily load from website.</li>
 </ul>
+<br>
 <p>The details asked from the user are:</p>
+<hr>
 <ul>
   <li>Personal Info: </li>
   <ul>
