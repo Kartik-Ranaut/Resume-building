@@ -14,4 +14,9 @@
     <li>Phone</li>
     <li>LinkedIn</li>
   </ul>
+  <li>Educational Qualifications:</li>
+  <ul>
+    <li>High School</li>
+    <li>Intermediate</li>
+  </ul>
 </ul>
