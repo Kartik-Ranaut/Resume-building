@@ -2,17 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .container{
-    margin-left: 40px;
-    margin-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 .heading{
- 
+    width:100vw;
+    position: absolute;
+    background-color: white;
     font-size: 2rem;
     color: rgb(45, 61, 109);
 }
@@ -25,7 +29,7 @@
 }
 .data{
     width: 40%;
-    background-color: red;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,7 +51,18 @@
 }
 button{
     background-color: rgb(87, 157, 159);
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
+    border: 0px;
+}
+.links{
+    font-size:12px;
 }
 .image{
     width: 60%;
+}
+i{
+    width: 10px;
+    height: 10px;
 }
