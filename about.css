@@ -1,0 +1,64 @@
+
+.about-form{
+    position: fixed;
+    margin-left: 25%;
+    margin-top: 10%;
+    border-radius: 10px;
+    line-height: 35px;
+    height: 50vh;
+    width: 50%;
+    box-shadow: 5px 0px 20px 10px grey;
+}
+label{
+    font-weight: bolder;
+}
+#name{
+    display: block;
+}
+#email{
+    display: block;
+}
+#address{
+    display: block;
+}
+input{
+    background-color: rgb(222, 213, 213);
+    width: 250px;
+    height: 33px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+   
+}
+input::placeholder{
+    
+    text-align: left center;
+    color: black;
+}
+.about-form-details{
+    display: flex;
+    justify-content: space-around;
+}
+#phone{
+    display: block;
+}
+#role{
+    display: block;
+}
+#linkedin{
+    display: block;
+}
+#button{
+    margin-left: 30px;
+    border: none;
+}
+.button{
+    margin-top: 1rem;
+    background-color: blue;
+    color: white;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
