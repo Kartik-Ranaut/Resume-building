@@ -20,5 +20,14 @@
     <li>Intermediate</li>
     <li>Skills</li>
   </ul>
+  <li>Personal Projects:</li>
+  <ul>
+    <li>Project Name</li>
+    <li>Project Description</li>
+    <li>Repo Link</li>
+    <li>Start Date</li>
+    <li>End Date</li>
+  </ul>
+
   
 </ul>
