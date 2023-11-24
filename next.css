@@ -22,8 +22,9 @@
 .nextpage{
     position: absolute;
     width: 500px;
-    height:600px;
-    background-color: red;
+    height:530px;
+    border: 1px solid black;
+    background-color: white;
     display: flex;
     justify-self: center;
     align-items: center;
