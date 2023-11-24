@@ -1,0 +1,46 @@
+.project_detail{
+    line-height: 40px;
+}
+#name{
+    display: block;
+}
+#description{
+    display: block;
+}
+#github{
+    display: block;
+}
+input{
+    background-color: rgb(222, 213, 213);
+    width: 250px;
+    height: 33px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+   
+}
+textarea{
+    background-color: rgb(222, 213, 213);
+    
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+input::placeholder{
+    
+    text-align: left center;
+    color: black;
+}
+label{
+    font-weight: bolder;
+}
+.project_detail{
+    position: fixed;
+    margin-left: 25%;
+    border-radius: 10px;
+    line-height: 35px;
+    height: 95vh;
+    width: 50%;
+    box-shadow: 5px 0px 20px 10px grey;
+}
+h2{
+    text-align: center;
+}

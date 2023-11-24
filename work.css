@@ -1,0 +1,41 @@
+#name, #post, #start_duration,#end_duration,#desc,#loc{
+    display: block;
+}
+.work_exp_detail{
+    /* position: fixed; */
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 10px;
+    line-height: 35px;
+    height: 90vh;
+    width: 50%;
+    box-shadow: 5px 0px 20px 10px grey;
+}
+input::placeholder{
+    
+    text-align: left center;
+    color: black;
+}
+label{
+    font-weight: bolder;
+}
+input{
+    background-color: rgb(222, 213, 213);
+    width: 250px;
+    height: 33px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+   
+}
+.work_exp_detail{
+    line-height: 40px;
+}
+h2{
+    text-align: center;
+}
+textarea{
+    background-color: rgb(222, 213, 213);
+    
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
