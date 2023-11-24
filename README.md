@@ -1,5 +1,6 @@
-<h2>Resume Builder Website</h2> 
-<h1><b>Res Build</b></h1>
+<h3>Resume Builder Website</h3> 
+<h1><b><i>Res Build</i></b></h1>
+<p>Having problems with designing a Good and an Attractive Resume that increases your chances of getting hired, the solution is here. Use RES BUILD, your comapnaion in tough times &#128521;</p>
 <img src="Logo Design.png" width='500' height ='150' alt="Company Logo">
 <p>It is a simple Resume Building Website where the user needs to submit the details asked like the personal info, his/her Educational Qualificationsincluding the skill set, Any work experience and the Projects built by the user.</p>
 <p>It then takes all the necessary info and creates the Resume of the user based on this.</p><br>
