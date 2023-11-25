@@ -55,3 +55,6 @@ aboutsave.addEventListener('click',()=>{
     adderessjs.innerHTML=`${addressabout.value}`;
     linkedinjs.innerHTML=`${linkedinabout.value}`
 })
+
+
+//educational details

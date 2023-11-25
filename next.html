@@ -96,6 +96,7 @@
                     
                     <label style="margin-left: 25px;" for="Prname">Project Name</label>
                     <input style="margin-left: 25px;" type="text" id="Prname" placeholder="Enter your project name">
+                    <br>
                     <label style="margin-left: 25px;" for="description">Project Description</label>
                     <textarea style="margin-left: 25px;" name="description" id="description" cols="30" rows="10"></textarea>
                     <label style="margin-left: 25px;" for="github">Github Repository Link</label>
@@ -114,8 +115,8 @@
             <label class="nextpage" for="work">
                 <div class="work_exp_detail">
 
-                    <label  style="margin-left: 25px"for="Orgname">Organization</label> <br> <br>
-                    <input  style="margin-left: 25px"type="text" id="Orgname"> <br>
+                    <label  style="margin-left: 25px"for="Orgname">Organization</label> <br> 
+                    <input  style="margin-left: 25px"type="text" id="Orgname"> <br><br> <br>
                     <label  style="margin-left: 25px"for="post">Responsibility:</label>
                     <input  style="margin-left: 25px"type="text" id="post"><br> <br>
                     <label  style="margin-left: 25px"for="name">Location :</label> &nbsp &nbsp &nbsp &nbsp 
@@ -137,9 +138,14 @@
             <label class="fieldname" for="work">Work</label>
         </div>
         <div class="resumw">
+            <div class="heading">
+                <button>Download Resume <i class="fa-solid fa-circle-down" style="color: #ffffff;"></i></button>
+            </div>
             <div class="aboutres">
+               
                 <div class="headabtres">
-                    <span id="namejs"></span>
+                    <b><span id="namejs"></span></b>
+                    
                     <br>
                     <span id="rolejs"></span>
                 </div>
@@ -156,7 +162,28 @@
                 
                 
             </div>
-            <div class="educationres"></div>
+            <div class="sameline">
+                <div class="educationres">
+                    <div class="heading">Education Details</div>
+                    <div id="highschooljs">
+                        <div class="head">High School</div>
+                        <div id="percentagejs"></div>
+                        <div class="datejs"></div>
+
+                    </div>
+                    <div id="intermediatejs">
+                        <div class="head">Intermediate</div>
+                        <div id="percentagejs"></div>
+                        <div class="datejs"></div>
+                        
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="heading">Skills</div>
+                    <div id="skillsjs"></div>
+                </div>
+            </div>
+            
             <div class="projectsres"></div>
             <div class="workres"></div>
         </div>
