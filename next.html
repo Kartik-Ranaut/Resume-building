@@ -23,7 +23,7 @@
                                 <input type="text" id="email" placeholder="Enter your E-mail id" class="form">
                             </div>
                             <div class="address">
-                                <label for="address">Address</label>
+                                <label for="address">City</label>
                                 <input type="text" id="address" placeholder="Enter your address" class="form">
                             </div>
                         
@@ -38,13 +38,13 @@
                                 <input type="text" id="phone" placeholder="Enter your phone no." class="form">
                             </div>
                                 <div class="linkedin">
-                                    <label for="linkedin">LinkedIn</label>
+                                    <label for="linkedin">LinkedIn user name</label>
                                     <input type="text" id="linkedin" placeholder="Enter your LinkedIn" class="form">
                                 </div>    
                         </div>
                     </div>
                     <div class="btn">
-                        <button type="submit" class="button">Save</button>
+                        <button type="submit" class="button" id="aboutsave">Save</button>
                     </div>
                     
                 </div>
@@ -93,8 +93,8 @@
             <label class="nextpage" for="projects">
                 <div class="project_detail">
                     
-                    <label style="margin-left: 25px;" for="name">Project Name</label>
-                    <input style="margin-left: 25px;" type="text" id="name" placeholder="Enter your project name">
+                    <label style="margin-left: 25px;" for="Prname">Project Name</label>
+                    <input style="margin-left: 25px;" type="text" id="Prname" placeholder="Enter your project name">
                     <label style="margin-left: 25px;" for="description">Project Description</label>
                     <textarea style="margin-left: 25px;" name="description" id="description" cols="30" rows="10"></textarea>
                     <label style="margin-left: 25px;" for="github">Github Repository Link</label>
@@ -113,17 +113,17 @@
             <label class="nextpage" for="work">
                 <div class="work_exp_detail">
 
-                    <label  style="margin-left: 25px"for="name">Organization</label> <br> <br>
-                    <input  style="margin-left: 25px"type="text" id="name"> <br>
+                    <label  style="margin-left: 25px"for="Orgname">Organization</label> <br> <br>
+                    <input  style="margin-left: 25px"type="text" id="Orgname"> <br>
                     <label  style="margin-left: 25px"for="post">Responsibility:</label>
                     <input  style="margin-left: 25px"type="text" id="post"><br> <br>
                     <label  style="margin-left: 25px"for="name">Location :</label> &nbsp &nbsp &nbsp &nbsp 
                     <input  style="margin-left: 25px"type="text" id="loc" placeholder="e.g. Delhi">
                     <br> <br>
-                    <label  style="margin-left: 25px"for="duration">Start Date</label>
+                    <label  style="margin-left: 25px"for="start_duration">Start Date</label>
                     <input  style="margin-left: 25px"type="date" id="start_duration">
                     <br> <br>
-                    <label  style="margin-left: 25px"for="to_duration">End Date</label>
+                    <label  style="margin-left: 25px"for="end_duration">End Date</label>
                     <input  style="margin-left: 25px" type="date" id="end_duration">
                     <br> <br>
                     <label  style="margin-left: 25px"for="name">Description</label>
@@ -136,11 +136,27 @@
             <label class="fieldname" for="work">Work</label>
         </div>
         <div class="resumw">
-            <div class="aboutres"></div>
+            <div class="aboutres">
+                <div class="headabtres">
+                    <span id="namejs"></span>
+                    <br>
+                    <span id="rolejs"></span>
+                </div>
+                <div class="label">
+                    <span id="emailjs"></span>
+                    <span id="phonejs"></span>
+                    <span id="addressjs"></span>
+                    <span id="linkedinjs"></span>
+                </div>
+                
+                
+            </div>
             <div class="educationres"></div>
             <div class="projectsres"></div>
             <div class="workres"></div>
         </div>
     </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
